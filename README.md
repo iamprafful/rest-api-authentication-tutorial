@@ -5,7 +5,7 @@ Token based API authentication with Spring Security and JWT (JSON web Token)
 
 ### Overview
 
-This repository is made to share source code of my blog post [Spring Boot + JWT](https://prafful.hashnode.dev/spring-boot-rest-api-authentication-best-practices-using-jwt-2022)
+This repository is made to share source code of my blog post [Spring Boot + JWT](https://blog.iamprafful.com/spring-boot-rest-api-authentication-best-practices-using-jwt-2022)
 where I have explained how to do token based authentication for your Spring boot REST API using JSON web tokens(JWT). 
 
 ### Output
