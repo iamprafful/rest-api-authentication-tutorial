@@ -91,7 +91,7 @@ public class AuthenticationController {
         user.setPassword(new BCryptPasswordEncoder().encode(password));
         user.setRole("USER");
         user.setUserName(userName);
-        UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
+        UserDetails userDetails = userDetailsService.createUserDetails(userName, user.getPassword());
         String token = jwtTokenUtil.generateToken(userDetails);
         userRepository.save(user);
         responseMap.put("error", false);
